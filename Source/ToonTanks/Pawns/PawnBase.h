@@ -30,6 +30,8 @@ private:
 	UHealthComponent* HealthComponent;
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	USoundBase* DeathSound;
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	TSubclassOf<UCameraShake> DeathShake;
 
 	//Variables
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Projectile Type", meta = (AllowPrivateAccess = "true"))
